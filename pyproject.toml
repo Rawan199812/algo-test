@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "algoexpert-clone"
+version = "0.1.0"
+description = ""
+authors = ["Rawan199812 <rawan.13579@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.5"
+requests = "^2.25.1"
+termcolor = "^1.1.0"
+stripe = "^2.58.0"
+gunicorn = "^20.1.0"
+django-heroku = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
